@@ -44,9 +44,9 @@ body{
 	font-family: 'Poppins', sans-serif;
 	font-size:16px;
 	color:#818998;
-    text-transform:initial;
-    max-width:1920px;
-    margin:0 auto;
+  text-transform:initial;
+  max-width: 100%;
+  margin:0 auto;
 	overflow-x:hidden;
 }
 
@@ -442,6 +442,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #a1560f;}
 }
 
 .single-service-item{
+    min-height: 500px;
     text-align: center;
     padding:55px 30px 60px;
     border-radius: 3px;
@@ -779,6 +780,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #a1560f;}
 
 /*single-testimonial-box */
 .single-testimonial-box  {
+    min-height: 490px;
     padding: 50px 30px 57px;
     text-align: center;
     border: 1px solid #dadfe9;
